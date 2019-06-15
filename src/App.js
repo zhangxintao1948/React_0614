@@ -21,8 +21,8 @@ export default  class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-        <Route path='/login' component={Login}></Route>
-        <Route path='/' component={Admin}>Admin</Route>
+        <Route path='/login' component={Login}/>
+        <Route path='/' component={Admin}/>
       </Switch>
       </BrowserRouter>
   );
